@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   microservicio:
-    image: lorve10/ministerio_envio_rips:v1_alluser
+    image: lorve10/ministerio_envio_rips:v2_alluser
     build: .
     volumes:
       # Montar solo el directorio padre para evitar problemas entre volúmenes
